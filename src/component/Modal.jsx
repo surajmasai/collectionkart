@@ -23,8 +23,8 @@ export const Modal = ({ props }) => {
                             ...
                         </div> */}
                         <div className="modal-footer">
-                            <button type="button" className="btn btn-secondary" data-dismiss="modal">Close</button>
-                            <button type="button" className="btn btn-primary">Payment</button>
+                            <button type="button" className="btn btn-danger ms-2 px-3 py-2" data-dismiss="modal">Close</button>
+                            <button type="button" className="btn btn-outline-dark ms-2 px-3 py-2">Payment</button>
                         </div>
                     </div>
                 </div>
