@@ -1,18 +1,20 @@
 // import logo from './logo.svg';
 import './App.css';
 import Home from './component/Home';
-import Navbar from './component/Navbar';
+import Navbars from './component/Navbar';
 import { Route, Routes } from "react-router-dom"
 import Products from './component/Products';
 import Product from './component/Product';
 import Cart from './component/Cart';
 import { Login } from "./component/Login";
 import { Register } from "./component/Register";
+// import NavScrollExample from './component/Navbar';
 
 function App() {
   return (
     <>
-      <Navbar />
+      {/* <NavScrollExample /> */}
+      <Navbars/>
       <Routes>
         <Route path="/" element={<Home />}></Route>
         <Route path="/products" element={<Products />}></Route>

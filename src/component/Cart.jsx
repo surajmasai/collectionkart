@@ -31,6 +31,7 @@ const Cart = () => {
     return (
         <div>
             <h1 className="text-center">cart</h1>
+            {state.length>0?
             <div className="container my-5 py-5">
                 {
                     state.map((cart, i) => {
@@ -62,6 +63,9 @@ const Cart = () => {
                 </div> : ""
                 }
             </div>
+            :<h2 className="text-center">Your Cart Is Empty</h2>
+            
+            }
 
         </div>
     )
